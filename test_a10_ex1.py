@@ -10,7 +10,6 @@ def test_cor_verde():
     assert acao_semaforo('verde') == 'Siga'
 
 def test_cor_invalida():
-    # for i not in 'vermelho' or 'v'
     assert acao_semaforo(not  'vermelho') == 'Cor Inválida'
     assert acao_semaforo(not  'amarelo') == 'Cor Inválida'
     assert acao_semaforo(not  'verde') == 'Cor Inválida'
